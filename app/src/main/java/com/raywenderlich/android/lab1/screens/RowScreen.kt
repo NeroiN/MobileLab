@@ -8,6 +8,7 @@ import androidx.compose.runtime.ComposableInferredTarget
 import androidx.compose.runtime.InternalComposeApi
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import com.raywenderlich.android.lab1.R
@@ -39,6 +40,7 @@ fun MyRow() {
                 textResId ->
             Text(
                 text = stringResource(id = textResId),
+                //color = Color.Yellow,
                 fontSize = 18.sp)
         }
     }

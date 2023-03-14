@@ -51,7 +51,7 @@ fun NavigationButton(text: String, screen: Screen) {
     ) {
         Text(
             text = text,
-            color = Color.White,
+            color = Color.Black,
         )
     }
 }
