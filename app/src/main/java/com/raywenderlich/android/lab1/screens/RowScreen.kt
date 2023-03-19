@@ -16,7 +16,7 @@ import com.raywenderlich.android.lab1.router.BackButtonHandler
 import com.raywenderlich.android.lab1.router.FundamentalsRouter
 import com.raywenderlich.android.lab1.router.Screen
 
-val THREE_ELEMENT_LIST = listOf(R.string.first, R.string.second, R.string.third)
+val THREE_ELEMENT_LIST = listOf(R.string.massage_1, R.string.massage_2, R.string.massage_3)
 
 @Composable
 fun RowScreen(){
@@ -40,7 +40,7 @@ fun MyRow() {
                 textResId ->
             Text(
                 text = stringResource(id = textResId),
-                //color = Color.Yellow,
+                color = Color.Yellow,
                 fontSize = 18.sp)
         }
     }

@@ -10,11 +10,18 @@
     <string name="button_progress">Прогрессбар</string>
     <string name="button_alertDialog">Диалоговое окно</string>
     <string name="button_Row">Ров кнопка</string>
+    <string name="button_Box">Box кнопка</string>
+    <string name="button_Column">Column кнопка</string>
     <string name="title_alertDialog">Внимание</string>
     <string name="alertDialog_about">Это диалоговое окно</string>
     <string name="insert_email">Email</string>
-    <string name="first">Первый</string>
-    <string name="second">Второй</string>
-    <string name="third">Третий</string>
-
+    <string name="massage_1">один</string>
+    <string name="massage_2">два</string>
+    <string name="massage_3">три</string>
+    <string name="massage_4">четыре</string>
+    <string name="massage_5">пять</string>
+    <string name="massage_6">шесть</string>
+    <string name="Box_Text_1">uno</string>
+    <string name="Box_Text_2">dose</string>
+    <string name="Box_Text_3">trese</string>
 </resources>

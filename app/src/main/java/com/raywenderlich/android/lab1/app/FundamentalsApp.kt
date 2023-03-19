@@ -24,9 +24,9 @@ fun FundamentalsApp() {
                 is Screen.Buttons -> ExploreButtonsScreen()
                 is Screen.ProgressIndicator -> ProgressIndicatorScreen()
                 is Screen.AlertDialog -> AlertDialogScreen()
-                is Screen.Box -> RowScreen()
+                is Screen.Row -> RowScreen()
                 is Screen.Column -> ColumnScreen()
-                is Screen.Row -> BoxScreen()
+                is Screen.Box -> BoxScreen()
                 is Screen.Scaffold -> SurfaceScreen()
                 is Screen.Surface -> ScaffoldScreen()
             }
