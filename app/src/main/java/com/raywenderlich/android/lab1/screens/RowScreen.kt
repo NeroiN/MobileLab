@@ -1,3 +1,4 @@
+package com.raywenderlich.android.lab1.screens
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
@@ -33,14 +34,11 @@ fun MyRow() {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceEvenly,
         modifier = Modifier.fillMaxSize()
-    )
-
-    {
+    ) {
         THREE_ELEMENT_LIST.forEach{
                 textResId ->
             Text(
                 text = stringResource(id = textResId),
-                color = Color.Yellow,
                 fontSize = 18.sp)
         }
     }

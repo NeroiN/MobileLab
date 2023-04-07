@@ -1,3 +1,5 @@
+package com.raywenderlich.android.lab1.screens
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -29,9 +31,7 @@ fun MyColumn() {
          horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.SpaceEvenly,
         modifier = Modifier.fillMaxSize()
-    )
-
-    {
+    ) {
         THREE_ELEMENT_LIST2.forEach { textResId ->
             Text(
                 text = stringResource(id = textResId),
@@ -41,7 +41,7 @@ fun MyColumn() {
     }
 
 }
-
-fun Text(text: String, color: Int, fontSize: TextUnit, modidier: Modifier) {
-
-}
+//@Composable
+//fun Text_(text: String, color: Int, fontSize: TextUnit, modidier: Modifier) {
+//Text(text = text)
+//}

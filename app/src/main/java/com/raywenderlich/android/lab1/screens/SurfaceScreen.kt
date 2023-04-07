@@ -1,13 +1,24 @@
+package com.raywenderlich.android.lab1.screens
 import android.view.Surface
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.size
+import androidx.compose.material.Surface
+import androidx.compose.material.contentColorFor
 import androidx.compose.runtime.Composable
 import com.raywenderlich.android.lab1.router.BackButtonHandler
 import com.raywenderlich.android.lab1.router.FundamentalsRouter
 import com.raywenderlich.android.lab1.router.Screen
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.raywenderlich.android.lab1.R
 
+val THREE_ELEMENT_LIST4 = listOf(R.string.massage_4, R.string.massage_5, R.string.massage_6)
 @Composable
 fun SurfaceScreen(modifier: Modifier = Modifier){
 
@@ -21,5 +32,14 @@ fun SurfaceScreen(modifier: Modifier = Modifier){
 
 @Composable
 fun MySurface(modifier: Modifier) {
-
+    Surface(
+        modifier = modifier.size(100.dp),
+        color = Color.LightGray,
+        contentColor = colorResource(id = R.color.colorPrimary),
+        elevation = 1.dp,
+        border = BorderStroke(1.dp, Color.Black)
+    ) {
+        MyColumn()
+    }
 }
+
