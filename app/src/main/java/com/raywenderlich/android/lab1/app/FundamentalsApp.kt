@@ -22,8 +22,8 @@ fun FundamentalsApp() {
                 is Screen.Row -> RowScreen()
                 is Screen.Column -> ColumnScreen()
                 is Screen.Box -> BoxScreen()
-                is Screen.Scaffold -> SurfaceScreen()
-                is Screen.Surface -> ScaffoldScreen()
+                is Screen.Scaffold -> ScaffoldScreen()
+                is Screen.Surface -> SurfaceScreen()
             }
         }
     }
