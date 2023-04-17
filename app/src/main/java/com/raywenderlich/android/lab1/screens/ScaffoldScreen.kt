@@ -45,15 +45,12 @@ fun MyScaffold() {
     )
 }
 
+
+
+
 @Composable
-fun MyTopAppBar(scaffoldState: ScaffoldState, scope: CoroutineScope) {
-    TODO("Not yet implemented")
-}
-
-
-//@Composable
-//fun MyTopAppBar(scaffoldState: ScaffoldState, scope: CoroutineScope){
-//    val drawerState = scaffoldState.drawerState
+fun MyTopAppBar(scaffoldState: ScaffoldState, scope: CoroutineScope){
+    val drawerState = scaffoldState.drawerState
 //
 //    TopAppBar(
 //        navigationIcon = {
@@ -76,7 +73,7 @@ fun MyTopAppBar(scaffoldState: ScaffoldState, scope: CoroutineScope) {
 //
 //    }
 //
-//}
+}
 
 @Composable
 fun MyBottomAppBar(){
