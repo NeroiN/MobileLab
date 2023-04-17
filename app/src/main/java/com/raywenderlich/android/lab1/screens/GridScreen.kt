@@ -1,7 +1,5 @@
 package com.raywenderlich.android.lab1.screens
 
-import android.content.Intent.ShortcutIconResource
-import android.widget.GridView
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
