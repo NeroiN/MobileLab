@@ -12,6 +12,7 @@
     <string name="button_Row">Row кнопка</string>
     <string name="button_Box">Box кнопка</string>
     <string name="button_Surface">Surface кнопка</string>
+    <string name="button_Scaffold">Scaffold кнопка</string>
     <string name="button_Column">Column кнопка</string>
     <string name="title_alertDialog">Внимание</string>
     <string name="alertDialog_about">Это диалоговое окно</string>
@@ -25,4 +26,5 @@
     <string name="Box_Text_1">uno</string>
     <string name="Box_Text_2">dose</string>
     <string name="Box_Text_3">trese</string>
+    <string name="Button_Menu">Меню</string>>
 </resources>
