@@ -26,5 +26,9 @@
     <string name="Box_Text_1">uno</string>
     <string name="Box_Text_2">dose</string>
     <string name="Box_Text_3">trese</string>
-    <string name="Button_Menu">Меню</string>>
+    <string name="Button_Menu">Меню</string>
+    <string name="android"> </string>
+    <string name="kotlin"> </string>
+    <string name="swift" />
+    <string name="ios" />
 </resources>
