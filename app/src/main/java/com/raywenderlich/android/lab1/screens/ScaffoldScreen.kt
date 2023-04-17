@@ -51,28 +51,25 @@ fun MyScaffold() {
 @Composable
 fun MyTopAppBar(scaffoldState: ScaffoldState, scope: CoroutineScope){
     val drawerState = scaffoldState.drawerState
-//
-//    TopAppBar(
-//        navigationIcon = {
-//            IconButton(
-//                content = {
-//                    Icon(
-//                        Icons.Default.Menu,
-//                        tint = Color.White,
-//                        contentDescription = stringResource(id = R.string.Button_Menu)
-//                    )
-//                },
-//                onClick = {
-//                    scope.launch { if (drawerState.isClosed) drawerState.open() else drawerState.close() }
-//                }
-//            )
-//        },
-//        title = { Text(text = stringResource(id = R.string.insert_email), color = Color.White) },
-//        backgroundColor = colorResource(id = R.color.colorPrimary)
-//    ) {
-//
-//    }
-//
+
+    TopAppBar(
+        navigationIcon = {
+            IconButton(
+                content = {
+                    Icon(
+                        Icons.Default.Menu,
+                        tint = Color.White,
+                        contentDescription = stringResource(id = R.string.Button_Menu)
+                    )
+                },
+                onClick = {
+                    scope.launch { if (drawerState.isClosed) drawerState.open() else drawerState.close() }
+                }
+            )
+        },
+        title = { Text(text = stringResource(id = R.string.insert_email), color = Color.White) },
+        backgroundColor = colorResource(id = R.color.colorPrimary)
+    )
 }
 
 @Composable
