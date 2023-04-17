@@ -41,7 +41,7 @@ fun MyScaffold() {
         },
         topBar = { MyTopAppBar(scaffoldState = scaffoldState, scope = scope) },
         bottomBar = { MyBottomAppBar() },
-        drawerContent = { MyColumn() }
+        drawerContent = { NavigationScreen() }
     )
 }
 
@@ -67,7 +67,7 @@ fun MyTopAppBar(scaffoldState: ScaffoldState, scope: CoroutineScope){
                 }
             )
         },
-        title = { Text(text = stringResource(id = R.string.insert_email), color = Color.White) },
+        title = { Text(text = stringResource(id = R.string.Button_Menu), color = Color.White) },
         backgroundColor = colorResource(id = R.color.colorPrimary)
     )
 }
