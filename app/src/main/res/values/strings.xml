@@ -27,8 +27,12 @@
     <string name="Box_Text_2">dose</string>
     <string name="Box_Text_3">trese</string>
     <string name="Button_Menu">Меню</string>
-    <string name="android"> </string>
-    <string name="kotlin"> </string>
-    <string name="swift" />
-    <string name="ios" />
+    <string name="android"></string>
+    <string name="kotlin"></string>
+    <string name="swift"></string>
+    <string name="ios"></string>
+    <string name="advanced_architecture_android">Усовершенствованная архитектура андройд</string>
+    <string name="kotlin_aprentice">Изучение Kotlin</string>
+    <string name="kotlin_koroutines">Корутины в Kotlin</string>
+    <string name="oblojka_book">Обложки книг</string>
 </resources>

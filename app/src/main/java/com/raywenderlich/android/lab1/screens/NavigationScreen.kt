@@ -39,6 +39,8 @@ fun NavigationScreen() {
             NavigationButton(stringResource(id = R.string.button_Box), Screen.Box)
             NavigationButton(stringResource(id = R.string.button_Surface), Screen.Surface)
             NavigationButton(stringResource(id = R.string.button_Scaffold), Screen.Scaffold)
+            NavigationButton(stringResource(id = R.string.advanced_architecture_android), Screen.Scrolling)
+            NavigationButton(stringResource(id = R.string.oblojka_book), Screen.List)
         }
     }
 }
