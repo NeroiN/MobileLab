@@ -26,31 +26,31 @@ private val items = listOf(
     BookCategory(
         R.string.android,
         listOf(
-            R.drawable.android_aprentice,
-            R.drawable.saving_data_android,
-            R.drawable.advanced_architecture_android
+            R.drawable.android_aprentice2,
+            R.drawable.saving_data_android2,
+            R.drawable.advanced_architecture_android2
         )
     ),
     BookCategory(
         R.string.kotlin,
         listOf(
-            R.drawable.kotlin_koroutines,
-            R.drawable.kotlin_aprentice
+            R.drawable.kotlin_coroutines2,
+            R.drawable.android_aprentice2
         )
     ),
     BookCategory(
         R.string.swift,
         listOf(
-            R.drawable.combine,
-            R.drawable.rx_swift,
-            R.drawable.swift_apprentice
+            R.drawable.combine2,
+            R.drawable.rx_swift2,
+            R.drawable.swift_apprentice2
         )
     ),
     BookCategory(
         R.string.ios,
         listOf(
-            R.drawable.core_data,
-            R.drawable.ios_apprentice
+            R.drawable.core_data2,
+            R.drawable.ios_apprentice2
         )
     )
 )
